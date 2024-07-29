@@ -5,7 +5,7 @@ export const navLinks = [
     icon: "/assets/icons/home.svg",
   },
   {
-    label: "Image Restore",
+    label: "Image Restore (Beta)",
     route: "/transformations/add/restore",
     icon: "/assets/icons/image.svg",
   },
@@ -47,10 +47,10 @@ export const plans = [
     name: "Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 20,
+    credits: 5,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "5 Free Credits",
         isIncluded: true,
       },
       {
@@ -71,11 +71,11 @@ export const plans = [
     _id: 2,
     name: "Pro Package",
     icon: "/assets/icons/free-plan.svg",
-    price: 40,
-    credits: 120,
+    price: 0.99,
+    credits: 1,
     inclusions: [
       {
-        label: "120 Credits",
+        label: "1 Credit",
         isIncluded: true,
       },
       {
@@ -96,11 +96,11 @@ export const plans = [
     _id: 3,
     name: "Premium Package",
     icon: "/assets/icons/free-plan.svg",
-    price: 199,
-    credits: 2000,
+    price: 4.99,
+    credits: 10,
     inclusions: [
       {
-        label: "2000 Credits",
+        label: "10 Credits",
         isIncluded: true,
       },
       {
