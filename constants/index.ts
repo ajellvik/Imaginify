@@ -20,7 +20,7 @@ export const navLinks = [
     icon: "/assets/icons/scan.svg",
   },
   {
-    label: "Object Recolor",
+    label: "Object Recolor (Beta)",
     route: "/transformations/add/recolor",
     icon: "/assets/icons/filter.svg",
   },
@@ -44,7 +44,7 @@ export const navLinks = [
 export const plans = [
   {
     _id: 1,
-    name: "Free",
+    name: "Free Starter",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
     credits: 5,
