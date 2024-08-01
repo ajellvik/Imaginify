@@ -10,12 +10,12 @@ export const navLinks = [
     icon: "/assets/icons/image.svg",
   },
   {
-    label: "Generative Fill",
+    label: "AI Aspect Ratio Edit",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
   },
   {
-    label: "Object Remove",
+    label: "Object Removal",
     route: "/transformations/add/remove",
     icon: "/assets/icons/scan.svg",
   },
@@ -25,7 +25,7 @@ export const navLinks = [
     icon: "/assets/icons/filter.svg",
   },
   {
-    label: "Background Remove",
+    label: "Background Removal",
     route: "/transformations/add/removeBackground",
     icon: "/assets/icons/camera.svg",
   },
