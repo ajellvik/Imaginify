@@ -180,6 +180,12 @@ export const aspectRatioOptions = {
     width: 1000,
     height: 1778,
   },
+  "3:2": {
+    aspectRatio: "3:2",
+    label: "Phone Landscape (3:2)",
+    width: 1080,
+    height: 566,
+  },
 };
 
 export const defaultValues = {
